@@ -33,5 +33,6 @@ public class ReadProperties {
 			driver.findElement(By.name(prop.getProperty("username_name"))).sendKeys(prop.getProperty("loginEmail"));
 		driver.findElement(By.name("loginPassword")).sendKeys("plassword");
 		driver.findElement(By.name("loginButton")).click();
+		System.out.println("HI");
 	
 }}
